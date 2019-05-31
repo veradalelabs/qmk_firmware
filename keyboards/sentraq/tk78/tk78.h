@@ -15,9 +15,6 @@
  */
 #pragma once
 
-#ifndef tk78_h
-#define tk78_h
-
 #include "quantum.h"
 
 /* This a shortcut to help you visually see your layout.
@@ -42,5 +39,4 @@
     { K400, K401, K402, K403, K404, K405, K406, K407, KC_NO, K409, K410, K411,  K412, KC_NO, K414, KC_NO, K416, KC_NO } \
 }
 
-#endif
 
