@@ -34,6 +34,11 @@ void matrix_scan_user(void) {
 
 }
 
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    xprintf("KL: kc: %u, col: %u, row: %u, pressed: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed);
+    return true;
+}
+
 void led_set_user(uint8_t usb_led) {
 
 }
